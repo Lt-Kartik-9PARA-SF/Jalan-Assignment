@@ -4,7 +4,7 @@ public class Shuffle {
     public static void main(String[] args) {
         int[] arr = {2, 1, 5, 3, 11, 7};
         int[] shuffled = shuffle(arr);
-        System.out.println(Arrays.toString(shuffled)); // [2, 7, 3, 11, 1, 5]
+        System.out.println(Arrays.toString(shuffled)); // [1, 11, 2, 7, 3, 5]
     }
 
     public static int[] shuffle(int[] arr) {
